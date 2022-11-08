@@ -4,7 +4,7 @@ body{
 
 .header{
     width: 100%;
-    padding: 0.1rem 0;
+    /* padding: 0.1rem 0; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,6 +14,7 @@ body{
 }
 
 .header img{
+    width: 2.5rem;
     transform: rotate(28.13deg);
 }
 
@@ -21,7 +22,7 @@ body{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
-    font-size: 1.15rem;
+    font-size: 1rem;
     padding-left: 0.5rem;
     line-height: 149.5%;
     text-align: center;
@@ -55,26 +56,36 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 0.5rem;
+    padding-top: 0.3rem;
+}
+
+#inner-logo img{
+    width: 11.5rem;
 }
 
 .break-through{
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
+    padding-top: 1.5rem;
+}
+
+.break-through img{
+    width: 2.5rem;
+    height: 2.6rem;
 }
 
 .break-text{
-    padding-top: 2.5rem;
+    padding-top: 0.5rem;
     font-family: 'Outfit';
     font-style: normal;
-    font-weight: 500;
-    font-size: 2.25rem;
+    font-weight: 580;
+    font-size: 1.8rem;
     line-height: 45px;
     text-align: center;
-    color: #111111;
-    padding-left: 0.4rem;
+    color: #000;
+    padding-left: 0.2rem;
 }
 
 #inner-break{
@@ -89,19 +100,106 @@ body{
 
 .grp-boxes{
     max-width: 100%;
-    min-height: 15.3rem;
+    min-height: 16rem;
     background-image: url("assets/img/group-element.png");
     background-position: center; 
     background-repeat: no-repeat;
-    background-size: 90% 16rem;
+    background-size: 87% auto;
     padding: 0 15%;
-    padding-top: 6rem;
     font-family: 'Orbitron';
     font-style: normal;
     font-weight: 800;
-    font-size: 2.4rem;
+    font-size: 2.15rem;
     line-height: 4rem;
     text-align: center;
     color: #FFFFFF;
     word-wrap: break-word;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.into-lead{
+    width: 100%;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.8rem;
+    margin-top: -1rem;
+    padding-bottom: 1.5rem;
+    /* line-height: 45px; */
+    text-align: center;
+    color: #000000;
+}
+
+.small-pics-area{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.yt-area{
+    width: 50%;
+    min-height: 2rem;
+    /* background-color: #FF8B49; */
+}
+
+.small-banner{
+    max-width: 100%;
+    /* background-color: aqua; */
+    min-height: 4.5rem;
+    background-image: url("assets/img/small-bk.png");
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: 95% auto;
+    /* padding: 0 15%; */
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.95rem;
+    word-wrap: break-word;
+    text-align: center;
+    color: #1C1C1C;
+    padding-top: 1.5rem;
+    line-height: 1.5rem;
+    /* background-color: #FF8B49; */
+}
+
+.con-text{
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #EE5C17;
+}
+
+.show-yt{
+    max-width: 100%;
+    min-height: 27rem;
+    background-image: url("assets/img/yt-player.png");
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1.83917px solid rgba(255, 255, 255, 0.53);
+    backdrop-filter: blur(18.3918px); */
+    /* font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.95rem;
+    word-wrap: break-word;
+    text-align: center;
+    color: #1C1C1C;
+    padding-top: 1.5rem;
+    line-height: 1.5rem; */
+}
+
+.show-yt iframe{
+    width:90%;
+    height: 23rem;
+    margin-top: 2rem;
+    border-radius: 18.3918px;
 }
