@@ -135,13 +135,62 @@ body{
 .small-pics-area{
     width: 100%;
     display: flex;
-    justify-content: center;
+}
+
+.first-side{
+    width: 25%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.first-side-2{
+    width: 25%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.first-side img{
+    width: 40%;
+}
+
+.first-side-2 img{
+    width: 45%;
+}
+
+#pic-side-1{
+    margin-top: 6rem;
+    margin-left: 45%;
+}
+
+#pic-side-2{
+    margin-top: 4.5rem;
+    margin-left: 18%;
+}
+
+#pic-side-3{
+    margin-top: 6rem;
+    margin-left: 43%;
+}
+
+#pic-side-4{
+    margin-top: 2.5rem;
+    margin-left: 15%;
+}
+
+#pic-side-5{
+    margin-top: 5.5rem;
+    margin-left: 47%;
+}
+
+#pic-side-6{
+    margin-top: 10rem;
+    margin-left: 15%;
 }
 
 .yt-area{
     width: 50%;
-    min-height: 2rem;
-    /* background-color: #FF8B49; */
 }
 
 .small-banner{
@@ -176,7 +225,7 @@ body{
 
 .show-yt{
     max-width: 100%;
-    min-height: 27rem;
+    min-height: 30rem;
     background-image: url("assets/img/yt-player.png");
     background-position: center; 
     background-repeat: no-repeat;
@@ -198,8 +247,120 @@ body{
 }
 
 .show-yt iframe{
-    width:90%;
-    height: 23rem;
-    margin-top: 2rem;
+    width:85%;
+    height: 21rem;
     border-radius: 18.3918px;
+    margin-right: 2rem;
+}
+
+.use-c{
+    width: 100%;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 36px;
+    text-align: center;
+    color: #000000;
+    padding-top: 1.4rem;
+}
+
+.sm-circle{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sm-circle img{
+    width: 25%;
+    height: auto;
+    margin-top: -2.5rem;
+}
+
+.db-use{
+    width:100%;
+}
+
+.db-use .sm-circle img{
+    display: none;
+}
+
+.db-use:hover .sm-circle img{
+    display: block!important;
+}
+
+.get-a{
+    width: 100%;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 39px;    
+    text-align: center;
+    color: #000000;
+    padding-top: 0.4rem;
+}
+
+.but-area{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0.8rem;
+}
+
+.arrow-btn{
+    width: 65%;
+}
+
+.arrow-gif{
+    width: 15%;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.cards{
+    width: 100%;
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards img{
+    width: 48%;
+}
+
+.oss{
+    width: 100%;
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.oss img{
+    width: 62%;
+}
+
+.no-down{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+.no-down div{
+    width: 53%;
+    background: rgba(53, 148, 219, 0.11);
+    border-radius: 2px;
+    font-family: 'Maven Pro';
+    font-style: normal;
+    font-weight: 600;
+    padding: 0.5rem 0;
+    font-size: 1.15rem;
+    text-align: center;
+    color: #000000;
 }
