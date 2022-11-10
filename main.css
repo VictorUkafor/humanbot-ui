@@ -40,6 +40,7 @@ body{
 
 .top-pages {
     width: 100%;
+    padding-bottom: 6rem;
     display: grid;
     background: linear-gradient(90deg, #FFFFFF -4.51%, #E0EAFF 100%);
 }
@@ -394,4 +395,99 @@ body{
 #ray-4{
     /* width: 40%; */
     margin-top: -38rem;
+}
+
+.second-page{
+    max-width: 100%;
+    min-height: 62rem;
+    background-image: url("assets/img/second-bk.png");
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    margin-top: -4rem;
+}
+
+.first-half{
+    width: 100%;
+    height: 20rem;
+    display: flex;
+}
+
+.book-icon{
+    margin-top: -3.5rem;
+    width: 68%;
+}
+
+.side-mogis{
+    width: 100%;
+    margin-top: 7rem;
+    height: 28rem;
+}
+
+.img-case{
+    width: 20%;
+}
+
+.big-central{
+    width: 60%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.big-glim{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 550;
+    font-size: 1.4rem;
+    text-align: center;
+    color: #000000;
+    background: rgba(0, 0, 0, 0.07);
+    border-radius: 5px;
+    width: 83.5%;
+    padding: 0.5em 0;
+}
+
+.ultra-b{
+    width: 100%;
+}
+
+.ultra-b .div1{
+    width: 100%;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 75px;
+    text-align: center;
+    color: #000000;
+    text-shadow: 0px 20.3682px 45.2626px rgba(0, 0, 0, 0.25);
+    padding-bottom: 1.5rem;
+}
+
+.arrow-pointer{
+    display: flex;
+    margin-top: -2rem;
+}
+
+#arrow-pointer-img1{
+    margin-left: 5rem;
+    width: 17%;
+    height: 10rem;
+    margin-right: 8rem;
+}
+
+#arrow-pointer-img2{
+    margin-top: 3rem;
+    width: 4%;
+    height: 5rem;
+}
+
+.ultra-b .arrow-pointer{
+    visibility: hidden;
+}
+
+.ultra-b:hover .arrow-pointer{
+    visibility: visible;
 }
