@@ -9,6 +9,7 @@ body{
     justify-content: center;
     align-items: center;
     background: linear-gradient(90deg, rgba(253, 102, 102, 0.99) 1.13%, #FF8B49 100%);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     margin-bottom: 0.3rem;
 }
@@ -28,6 +29,7 @@ body{
     text-align: center;
     color: #FFFFFF;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 
 #human-bot{
@@ -35,21 +37,28 @@ body{
     font-weight: 700;
 }
 
-.first-page{
-    max-width: 100%;
-    min-height: 130rem;
-    background-color: #FFFFFF; 
-    background-image: url("assets/img/first-page-bk.png");
-    background-image: url("assets/img/first-page-bk.png"), linear-gradient(90deg, #FFFFFF -4.51%, #E0EAFF 100%);
-    background-position: center; 
-    background-repeat: no-repeat;
-    background-size: cover;
-    /* background: linear-gradient(90deg, #FFFFFF -4.51%, #E0EAFF 100%);  */
+
+.top-pages {
+    width: 100%;
+    display: grid;
+    background: linear-gradient(90deg, #FFFFFF -4.51%, #E0EAFF 100%);
+}
+
+.page-under, .first-page {
+    grid-area: 1 / 1;
+}
+
+.page-under{
+    width: 100%;
+    min-height: 20rem;
 }
 
 .first-page{
     padding: 1rem 0;
+    width: 100%;
 }
+
+
 
 #inner-logo{
     width: 100%;
@@ -363,4 +372,26 @@ body{
     font-size: 1.15rem;
     text-align: center;
     color: #000000;
+}
+
+.first-rays{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#ray-bk{
+    width: 7.2%;
+    height: 9rem;
+    margin-top: 1rem;
+}
+
+#ray-2{
+    margin-top: -47rem;
+    height: 45rem;
+}
+
+#ray-4{
+    /* width: 40%; */
+    margin-top: -38rem;
 }
