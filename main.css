@@ -399,17 +399,17 @@ body{
 
 .second-page{
     max-width: 100%;
-    min-height: 62rem;
+    min-height: 65rem;
     background-image: url("assets/img/second-bk.png");
     background-position: center; 
     background-repeat: no-repeat;
     background-size: 100% auto;
     margin-top: -4rem;
+    /* background-color: #FF8B49; */
 }
 
 .first-half{
     width: 100%;
-    height: 20rem;
     display: flex;
 }
 
@@ -447,6 +447,7 @@ body{
     border-radius: 5px;
     width: 83.5%;
     padding: 0.5em 0;
+    margin-bottom: 2rem;
 }
 
 .ultra-b{
@@ -458,8 +459,8 @@ body{
     font-family: 'Outfit';
     font-style: normal;
     font-weight: bold;
-    font-size: 3rem;
-    line-height: 75px;
+    font-size: 2.8rem;
+    line-height: 3.8rem;
     text-align: center;
     color: #000000;
     text-shadow: 0px 20.3682px 45.2626px rgba(0, 0, 0, 0.25);
@@ -490,4 +491,25 @@ body{
 
 .ultra-b:hover .arrow-pointer{
     visibility: visible;
+}
+
+.second-half{
+    margin-top: -35rem;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.second-half img{
+    width: 22.8%;
+    height: 28rem;
+}
+
+.third-bk{
+    max-width: 100%;
+    min-height: 160rem;
+    background-image: url("assets/img/third-bk.png");
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: 100% auto;
 }
