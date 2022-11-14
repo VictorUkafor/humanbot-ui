@@ -778,3 +778,121 @@ body{
     margin-top: 67rem;
     margin-left: -6rem;
 }
+
+.fourth-page{
+    width: 100%;
+    background-color: #fff;
+    padding-top: 4rem;
+}
+
+.sup-bar{
+    max-width: 100%;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 149.5%;
+    text-align: center;
+    color: #000000;
+    min-height: 4.3rem;
+    background-image: url("assets/img/rect.png");
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: 58% auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.one-step{
+    max-width: 100%;
+    font-family: 'Maven Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 149.5%;
+    text-align: center;
+    color: #FFFFFF;
+    min-height: 3.3rem;
+    background-image: url("assets/img/vect.png");
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: 40% auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.first-side-1{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#first-side-1-img{
+    width: 47%;
+}
+
+#first-side-2-img{
+    width: 40%;
+}
+
+#first-side-3-img{
+    width: 44%;
+}
+
+#star-img{
+    width: 14%;
+    margin-right: 0.75rem;
+}
+
+.dash-board-1{
+    max-width:34%;
+    margin-top: 2rem;
+}
+
+.dash-board-2{
+    display: flex;
+}
+
+.dash-p{
+    width: 70%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1.8rem;
+    line-height: 118.6%;
+    color: #1C1C1C;
+}
+
+.dash-board-3{
+    min-height: 25rem;
+    background-image: url("assets/img/grp-dash.png");
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: 95% auto;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.1rem;
+    line-height: 164%;
+    color: #FFFFFF;
+    padding: 0 2rem; 
+    word-wrap: break-word;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dash-board-4{
+    min-height: 14rem;
+    background-image: url("assets/img/grp-dash-1.png");
+}
+
+.dash-board-5{
+    min-height: 16rem;
+    background-image: url("assets/img/zapier-side.png");  
+}
