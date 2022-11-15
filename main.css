@@ -832,16 +832,34 @@ body{
     align-items: center;
 }
 
+.first-side-1-a{
+    margin-top: -2.5rem;
+    margin-bottom: 1rem;
+}
+
+.first-side-1-b{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.first-side-1-c{
+    margin-top: -2rem;
+}
+
+
 #first-side-1-img{
     width: 47%;
 }
 
 #first-side-2-img{
     width: 40%;
+    margin-left: 3rem;
 }
 
 #first-side-3-img{
     width: 44%;
+    margin-left: 3rem;
+    margin-right: 3rem;
 }
 
 #first-side-7-img{
@@ -850,10 +868,12 @@ body{
 
 #first-side-8-img{
     width: 38%;
+    margin-left: 3rem;
 }
 
 #first-side-9-img{
     width: 36%;
+    margin-right: 4rem;
 }
 
 #star-img{
@@ -927,4 +947,25 @@ body{
 .dash-board-9{
     min-height: 14rem;
     background-image: url("assets/img/robot-1.png");   
+}
+
+.first-arrow-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-arrow-div img{
+    width: 17.5%;
+    margin-left: -4rem;
+}
+
+
+.fourth-page-slice{
+    max-width: 100%;
+    min-height: 11rem;
+    background-image: url("assets/img/third-page-slice.png");
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: 100% auto;
 }
