@@ -881,6 +881,11 @@ body{
     margin-right: 0.75rem;
 }
 
+#star-img-2{
+    width: 13%;
+    margin-right: 0.75rem;
+}
+
 .dash-board-1{
     max-width:34%;
     margin-top: 2rem;
@@ -1068,13 +1073,27 @@ body{
 
 .con-glo-div{
     max-width: 100%;
-    height: 13rem;
-    margin-top: 7rem;
+    min-height: 15rem;
+    /* padding-top: 8rem; */
+    margin-top: 5rem;
     background-image: url("assets/img/con-glo.png");
     background-position: center; 
     background-repeat: no-repeat;
-    background-size: 57% auto;
+    background-size: 53% auto;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.8rem;
+    text-align: center;
+    color: #393939;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 22%;
+    padding-top: 1rem;
+    /* background-color: #E0EAFF; */
 }
+
 
 .con-glo{
     max-width: 100%;
@@ -1085,14 +1104,69 @@ body{
     grid-area: 1 / 1;
 }
 
-.con-g-div{
-    font-family: 'Outfit';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 1.8rem;
-    text-align: center;
-    color: #393939;
+.multili-page{
+    margin-top: -2rem;
+    padding-top: 2rem;
     max-width: 100%;
-    padding: 5rem 24%;
+    background-color: #C7F0F4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.multili-p-div{
+    width: 40%;
+}
+
+#list-p{
+    width: 39%;
+}
+
+.multili-p-div-2{
+    display: flex;
+}
+
+.m-p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 1.8rem;
+    line-height: 118.6%;
+    color: #1E1E1E; 
+    padding-right: 2rem;   
+}
+
+.multili-p-div-1{
+    max-width: 90%;
+    height: 15rem;
+    background-image: url("assets/img/get-1.png");
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: 95% auto;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 164%;    
+    color: #FFFFFF;
+    padding: 0 10%;
+    padding-top: 4rem;
+}
+
+.slice-10{
+    max-width: 100%;
+    height: 4.5rem;
+    background-image: url("assets/img/slice-10.png");
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#anim-10{
+    margin-top: -1rem;
+    width: 5.5rem;
+}
