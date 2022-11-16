@@ -1153,6 +1153,27 @@ body{
     padding-top: 4rem;
 }
 
+.multi-banner{
+    max-width: 90%;
+    height: 15.5rem;
+    background-image: url("assets/img/d-banner-1.svg");
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    padding-top: 3rem;
+}
+
+.multi-banner-2{
+    max-width: 90%;
+    height: 9.5rem;
+    background-image: url("assets/img/d-banner-2.svg");
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: 85% auto;
+    padding: 0 13%;
+    padding-top: 4rem;
+}
+
 .slice-10{
     max-width: 100%;
     height: 4.5rem;
@@ -1165,8 +1186,115 @@ body{
     align-items: center;
 }
 
-
 #anim-10{
     margin-top: -1rem;
     width: 5.5rem;
+}
+
+.emo-div{
+    width: 100%;
+    background-color: #22556C;
+}
+
+.emo-div-1{
+    max-width: 100%;
+    height: 10rem;
+    background-image: url("assets/img/ray-banner.png");
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: 48% auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.2rem;
+    line-height: 126%;
+    text-align: center;
+    color: #000000;
+    padding: 0 25rem;
+}
+
+.profs{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 0;
+}
+
+.profs img{
+    width: 23%;
+    height: 26rem;
+}
+
+.yello-banner{
+    max-width: 100%;
+    height: 18rem;
+    background-image: url("assets/img/yellow-banner.svg");
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: 55% auto;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.6rem;
+    text-align: center;
+    color: #000000;
+    padding: 0 27%;
+    padding-top: 6rem;
+}
+
+.desk-banners{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#star-img-bann{
+    width: 13.8%;
+    height: 4.3rem;
+}
+
+.d-banner-1{
+    width: 36%;
+    margin-right: 4rem;
+    margin-bottom: 6rem;
+}
+
+.d-banner-2{
+    width: 40%;
+}
+
+.m-p-l{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 146.1%;
+    color: #F8F8F8;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}
+
+#cam-mac-1{
+    width: 40%;
+}
+
+.slice-wiz{
+    max-width: 100%;
+    height: 4rem;
+    background-image: url("assets/img/slice-wiz.png");
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
