@@ -1395,5 +1395,113 @@ body{
     background-position: center; 
     background-repeat: no-repeat;
     background-size: 100% auto;  
+}
 
+.support-page{
+    max-width: 100%;
+    background-color: #efffff;
+}
+
+.first-suppport-div{
+    max-width: 100%;
+    min-height: 8rem;
+    background-image: url("assets/img/first-support.svg");
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: 50% auto;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: linear-gradient(90.87deg, #000000 2.64%, #373737 95.39%);
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 126%;
+}
+
+.second-sup-div{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5rem;
+}
+
+.support-sub{
+    display: flex;
+    align-items: center;
+    width: 75%;
+    height: 30rem;
+    background: rgba(34, 85, 108, 0.06);
+    border-radius: 20px;
+}
+
+.sup-first-half{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.off-txt{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.2rem;
+    line-height: 146.1%;
+    color: #121212;
+}
+
+.sup-under{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 164%;
+    color: #535759;
+    padding: 1rem 22%;
+}
+
+#emogi-smile{
+    width: 10%;
+    align-self: flex-start;
+    padding: 1rem 22%;
+}
+
+.robot-div{
+    width: 45%;
+    display: flex;
+}
+
+#big-robot{
+    max-width: 85%;
+    height: auto;
+}
+
+#chev-left{
+    width: 6%;
+    background: url(animation_500_la2n6o84.png);
+    opacity: 0.1;
+    transform: rotate(-90deg);
+}
+
+#chev-right{
+    width: 6%;
+    background: url(animation_500_la2n6o84.png);
+    opacity: 0.6;
+    transform: matrix(0, -1, -1, 0, 0, 0);
+}
+
+.spiral-dw{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.spiral-dw img{
+    width: 3.5%;
 }
