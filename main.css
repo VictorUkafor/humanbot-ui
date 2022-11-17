@@ -1496,6 +1496,11 @@ body{
     transform: matrix(0, -1, -1, 0, 0, 0);
 }
 
+#chev-down{
+    width: 6%;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
 .spiral-dw{
     max-width: 100%;
     display: flex;
@@ -1504,4 +1509,112 @@ body{
 
 .spiral-dw img{
     width: 3.5%;
+}
+
+.life-time-div{
+    width: 100%;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.9rem;
+    line-height: 126%;
+    text-align: center;
+    color: #000000;
+    padding: 1rem 0;
+}
+
+.pocket-offers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pocket-offers button{
+    background: #F47171;
+    border-radius: 9.25256px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 126%;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    padding: 0.5rem 1rem;
+}
+
+#offer-1{
+    background: #3FD93C;
+    margin-right: 1.5rem;
+}
+
+#offer-2{
+    background: #20A5D6;
+    margin-right: 1.5rem;
+}
+
+.price-note{
+    max-width: 100%;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 126%;
+    text-align: center;
+    color: #000000;  
+    padding: 1.5rem 20%;  
+}
+
+#main-offers{
+    margin: 2rem 7%;
+    max-width: 86%;
+}
+
+.offer-anim{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -6rem;
+}
+
+.arrow-gif-2{
+    width: 15%;
+}
+
+.leaves-div{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+.leaves-div div{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.9rem;
+    line-height: 126%;
+    text-align: center;
+    color: #000000;
+} 
+
+#offer-line{
+    width: 38%;
+}
+
+.humanbot-podium{
+    max-width: 100%;
+    min-height: 40rem;
+    background-image: url("assets/img/humanbot-podium.svg");
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: 83% auto;  
+}
+
+#anim-gif{
+    width: 26%;
+    margin-left: 55%;
+    margin-top: 11rem;
 }
