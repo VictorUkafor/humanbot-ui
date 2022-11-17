@@ -1399,10 +1399,11 @@ body{
 
 .support-page{
     max-width: 100%;
-    background-color: #efffff;
+    background-color: #F1FEFF
 }
 
 .first-suppport-div{
+    margin-top: -1rem;
     max-width: 100%;
     min-height: 8rem;
     background-image: url("assets/img/first-support.svg");
@@ -1617,4 +1618,188 @@ body{
     width: 26%;
     margin-left: 55%;
     margin-top: 11rem;
+}
+
+.second-last{
+    margin-top: -2rem;
+    max-width: 100%;
+    min-height: 13rem;
+    background-image: url("assets/img/second-last.svg");
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: 100% auto; 
+}
+
+.second-last div{
+    max-width: 100%;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 2rem;
+    line-height: 126%;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 0 15%;
+    padding-top: 7.5rem;
+}
+
+.two-bar-page{
+    margin-top: -0.5rem;
+    max-width: 100%;
+    background: #C0E6EB;
+    padding: 1rem 13%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.long-bar-div{
+    width: 47.6%;
+    background: #FFFFFF;
+    box-shadow: 5.3649px 34.8719px 71.532px -25.9304px rgba(0, 0, 0, 0.12);
+    border-radius: 17.883px;
+}
+
+.inner-top-box{
+    max-width: 100%;
+    min-height: 9rem;
+    background-image: url("assets/img/price-ban1.svg");
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: 100% auto; 
+    border-radius: 17.883px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.inner-top-box-2{
+    background-image: url("assets/img/price-ban-2.svg");
+}
+
+.top-box-1{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.9rem;
+    line-height: 126%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.top-box-2{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 126%;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 0.7rem;
+}
+
+.second-box{
+    background: #F37878;
+}
+
+.feat-list{
+    max-width: 100%;
+    padding: 0 2rem;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid rgba(154, 154, 154, 0.13)
+}
+
+.like-img{
+    width: 12%;
+}
+
+.feat-list div{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 331.5%;
+    color: #000000;
+    padding-left: 1.5rem;
+}
+
+.dashed-opt{
+    margin: 0 10%;
+    margin-top: 1.5rem;
+    border: 1.97297px dashed #000000;
+    border-radius: 9.86486px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 126%;
+    text-align: center;
+    color: #000000;
+    padding: 1.2rem 2rem ;
+}
+
+.opt-div{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.1rem;
+    line-height: 126%;
+    text-align: center;
+    color: #000000;
+    padding: 1.5rem 15%;
+}
+
+.dollar-price{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 5rem;
+    line-height: 141%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.dollar-price-1{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.8rem;
+    line-height: 141%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.no-inst{
+    background: rgba(53, 148, 219, 0.11);
+    border-radius: 2px;
+    padding: 0.5rem;
+    margin: 0.5rem 11%;
+    font-family: 'Maven Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 26px;
+    text-align: center;
+    color: #000000;
+}
+
+.btn-1{
+    width: 90%;
+    margin: 1.5rem 5%;
+}
+
+.cards-2{
+    width: 70%;
+    margin: 0 15%;
+}
+
+.oss-2{
+    width: 86%;
+    margin: 1rem 7%;
 }
