@@ -73,6 +73,20 @@ body{
     width: 11.5rem;
 }
 
+#inner-logo-2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0.3rem;
+}
+
+#inner-logo-2 img{
+    width: 38%;
+    margin-left: 3rem;
+    margin-top: -1rem;
+}
+
 .break-through{
     width: 100%;
     display: flex;
@@ -1990,4 +2004,48 @@ body{
 
 .but-area2{
     margin-top: -12rem;
+    margin-bottom: -3rem;
+}
+
+.last-slice{
+    max-width: 100%;
+    min-height: 30rem;
+    background-image: url("assets/img/last-bk.svg");
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: 100% auto;  
+}
+
+.last-imgs{
+    max-width: 100%;    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* .last-slice img{
+    width: 15%;
+} */
+
+.last-f1{
+    width: 13%;
+    margin-top: -3.2rem;
+}
+
+.last-f2{
+    width: 17%;
+    margin-top: -3.6rem;
+}
+
+.footer-txt{
+   max-width: 100%;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.15rem;
+    line-height: 32px;
+    text-align: center;
+    color: #000000;
+    padding: 0 23%;
+    margin-top: -1.5rem;
 }
