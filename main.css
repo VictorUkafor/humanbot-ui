@@ -1803,3 +1803,88 @@ body{
     width: 86%;
     margin: 1rem 7%;
 }
+
+.last-page{
+    max-width: 100%;
+    background-color: #0E0E0E;
+}
+
+.freq-ban{
+    max-width: 100%;
+    min-height: 13rem;
+    background-image: url("assets/img/freq-ban.svg");
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: 53% auto;  
+}
+
+.freq-ban div{
+    padding-top: 7.5rem;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.6em;
+    line-height: 126%;
+    text-align: center;
+    text-decoration-line: underline;
+    color: linear-gradient(90.87deg, #000000 2.64%, #373737 95.39%);
+}
+
+.ques-ans{
+    max-width: 100%;
+    padding: 2rem 13%;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    flex-wrap: wrap;
+}
+
+.ques-ans-grp{
+    width: 45.3%;  
+}
+
+.each-ans{
+    width: 100%;
+    background: #FFE9C8;
+    border-radius: 15px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.ques-area{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ques-area-p{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 1rem;
+    color: #000000;
+}
+
+.add-icon{
+    width: 1rem;
+    cursor: pointer;
+}
+
+.ans-text{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.9rem;
+    line-height: 1.7rem;
+    letter-spacing: -0.02em;
+    padding-top: 1rem;
+}
+
+.each-ans-1{
+    background-color: #fff;
+}
