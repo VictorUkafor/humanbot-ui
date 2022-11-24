@@ -465,8 +465,8 @@ body{
 }
 
 .second-page{
-    display: grid;
     width: 100%;
+    display: grid;
     min-height: 65rem;
     background-image: url("assets/img/second-bk.png");
     background-position: center; 
@@ -734,7 +734,7 @@ body{
 }
 
 .b-sect{
-    max-width: 100%;
+    width: 100%;
     padding-top: 3rem;
     display: flex;
     padding-bottom: 4rem;
@@ -2585,6 +2585,114 @@ body{
         width: 8rem;
     }
 
+    .img-case{
+        display: none;
+    }
+
+    .big-central{
+        width: 100%;
+    }
+
+    .second-page{
+        margin-top: 0;
+        background: #98D2E8;
+        background-image: none;
+        min-height: 30rem;
+    }
+
+    .first-half{
+        margin-top: -5rem;
+    }
+
+    .third-bk{
+        margin-top: -3.5rem;
+    }
+
+    .zig-banner{
+        max-width: 100%;
+        background-size: 80% auto;
+        font-size: 1.5rem;
+        line-height: 2rem;
+        padding: 0 15%;
+    }
+
+    .dem-btn{
+        font-size: 1.1rem;
+        line-height: 26px;
+        padding: 0.7rem;
+        margin: 1rem 10%;
+    }
+
+    .f1-blocks img {
+        max-width: 100%;
+    }
+
+    .f2-blocks img {
+        max-width: 100%;
+    }
+
+    .list-div{
+        max-width: 100%;
+    }
+
+    .list-div-h{
+        border-radius: 10px;
+        font-weight: 900;
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+        padding: 1rem;
+    }
+
+    .list-div ul li{
+        font-weight: 400;
+        font-size: 1.2rem;
+        line-height: 2.5rem; 
+        padding-bottom: 2rem;  
+    }
+
+    .end-sect{
+        margin-top: -2rem;
+    }
+    
+    .pub-title{
+        font-size: 2rem;
+        line-height: 3rem;
+        padding: 2.5rem 5%;
+    }
+
+    .custom-box{
+        margin: 2rem 5%;
+        border-radius: 18.9568px;
+    }
+
+    .custom-box-div button{
+        font-size: 0.8rem;
+        line-height: 25px;
+        padding: 1rem 1rem;
+    }
+
+    .custom-box-div button img{
+        width: 2.5rem;
+        margin-right: 0.5rem;
+    }
+
+    .multi-page-2{
+        margin-top: 8rem;
+    }
+
+    #side-ray-1{
+        width: 50%;
+        margin-top: 112rem;
+    }
+
+    #down-arrow{
+        width: 14%;
+        margin-top: 139rem;
+        padding-left: 6rem;
+    }
+    
+
+
 }
 
 
@@ -2703,6 +2811,134 @@ body{
     }
 
     .page-under{
+        display: none;
+    }
+
+    .ultra-b .div1{
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+        width: 90%;
+        margin: 0 5%;
+        padding-bottom: 0.5rem;
+    }
+
+    .big-glim{
+        font-size: 0.7rem;
+    }
+
+    .arrow-pointer{
+        visibility: hidden;
+    }
+
+    .second-page{
+        margin-top: 0;
+        background: #98D2E8;
+        background-image: none;
+        min-height: 20rem;
+    }
+
+    .top-pages {
+        padding-bottom: 0;
+    }
+
+    .m-blocks{
+        display: none;
+    }
+
+    .b-sect{
+        flex-direction: column;
+    }
+
+    .f1-blocks, .f2-blocks{
+        max-width: 100%;
+        padding: 0 2rem;
+    }
+
+    .f1-blocks img, .f2-blocks img{
+        max-width: 100%;
+    }
+
+    .list-div-h{
+        width: 100%;
+        font-size: 1.3rem;
+        line-height: 2rem;
+        padding: 0.5rem;
+    }
+
+    .list-div ul li{
+        width: 100%;
+        font-size: 1rem;
+        line-height: 2rem; 
+        padding-bottom: 1rem;  
+    }
+
+    .list-div{
+        padding-top: 2rem;
+        width: 100%!important;
+    }
+
+    #last-s-img{
+        max-width: 100%;
+    }
+
+    .third-bk{
+        margin-top: -4rem;
+    }
+
+    .zig-banner{
+        max-width: 100%;
+        background-size: 90% auto;
+        background-image: none;
+        font-size: 1.2rem;
+        line-height: 2rem;
+        margin-top: -2rem;
+        padding: 0 7%;
+    }
+
+    .dem-btn{
+        font-size: 0.8rem;
+        line-height: 1.2rem;
+        border-radius: 7.50526px;
+        padding: 0.3rem;
+        margin: 0 7%;
+        margin-top: -2rem;
+    }
+
+    .end-sect{
+        margin-top: -3rem;
+    }
+
+    .publish-page{
+        margin-top: -2.5rem;
+    }
+
+    .pub-title{
+        max-width: 100%;
+        font-size: 1rem;
+        line-height: 1.7rem;
+        text-shadow: 0px 18.2048px 40.455px rgba(0, 0, 0, 0.25);
+        padding: 1rem 5%;
+    }
+
+    .custom-box{
+        margin: 2rem 5%;
+        border-radius: 10px;
+        flex-direction: column;
+    }
+
+    .custom-box-div{
+        width: 100%;
+    }
+
+    .custom-box img{
+        width: 100%;
+    }
+
+    .custom-steps{
+        padding-top: 1.5rem;
+    }
+
+    .multi-page-2{
         display: none;
     }
 
