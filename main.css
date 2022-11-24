@@ -2690,6 +2690,32 @@ body{
         margin-top: 139rem;
         padding-left: 6rem;
     }
+
+    .sup-bar{
+        font-size: 1.7rem;
+        background-size: 75% auto;
+    }
+
+    .one-step{
+        font-size: 1.4rem;
+        min-height: 3.3rem;
+        background-size: 60% auto;
+        margin-bottom: 3rem;
+    }
+
+    .dash-board-1{
+        max-width:45%;
+        margin-top: 2rem;
+    }
+
+    .dash-board-3{
+        font-size: 0.8rem;
+        padding: 0 1rem; 
+    }
+
+    .first-side-1{
+        padding: 0 1rem;
+    }
     
 
 
@@ -2941,6 +2967,85 @@ body{
     .multi-page-2{
         display: none;
     }
+
+    .first-side-1{
+        flex-direction: column;
+    }
+
+    .sup-bar{
+        width: 90%;
+        font-size: 1rem;
+        line-height: 2.5rem;
+        background-image: none;
+        margin: 0 5%;
+        margin-top: -3rem;
+        background: rgba(55, 191, 203, 0.24);
+        border: 1px dashed #FC1818;
+        border-radius: 7.50526px;
+        padding: 0;
+        min-height: auto;
+    }
+
+    .one-step{
+        font-size: 1rem;
+        min-height: 2rem;
+        background-size: 100% auto;
+        margin-bottom: 0;
+        background-image: none;
+        margin-top: 1rem;
+        color:  #8C48F1;
+        font-weight: bold;
+        padding: 0;
+        text-align: center;
+    }
+
+    .dash-board-1{
+        max-width:100%;
+    }
+
+    .dash-p{
+        font-size: 1.3rem;
+    }
+
+    .dash-board-3{
+        min-height: 20rem;
+    }
+
+    .dash-board-4{
+        min-height: 12rem;
+    }
+
+    .dash-board-5{
+        min-height: 14rem;
+    }
+
+    .dash-board-6{
+        min-height: 12rem;
+    }
+
+    .dash-board-7{
+        min-height: 13rem;
+    }
+
+    .dash-board-8{
+        min-height: 10rem;
+    }
+
+    .dash-board-9{
+        min-height: 12rem;
+    }
+
+    .first-img-div{
+        width: 90%!important;
+        margin: 0!important;
+        margin-top: 2rem;
+    }
+
+    .first-arrow-div{
+        display: none;
+    }
+
+
 
 
 }
