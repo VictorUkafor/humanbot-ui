@@ -1444,7 +1444,7 @@ body{
     padding-bottom: 1rem;
 }
 
-#cam-mac-1{
+.cam-mac-1{
     width: 40%;
 }
 
@@ -3190,6 +3190,73 @@ body{
         width: 60%;
         margin-top: -5rem;
     }
+
+    .emo-div-1{
+        margin-top: -2rem;
+        font-size: 1rem;
+        padding: 0 10%;
+        height: 5rem;
+        background-size: 80% auto;
+    }
+
+    .profs{
+        max-width: 100%;
+    }
+
+    .profs img{
+        width: 23%;
+        height: 7rem;
+    }
+
+    .yello-banner{
+        font-size: 0.65rem;
+        background-size: 80% auto;
+        padding: 0 13%;
+        padding-top: 1rem;
+        height: 5.5rem;
+    }
+
+    .slice-wiz{
+        margin-top: -1rem;
+    }
+
+    .multili-p-div{
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+
+    .cam-mac-1{
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+
+    .m-p-l{
+        font-size: 0.9rem;
+    }
+
+    #star-img-bann{
+        width: 12%;
+        height: 2.5rem;
+    }
+
+    .d-banner-1{
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+
+    .desk-banners{
+        padding: 0 10%;
+    }
+
+    .multi-banner{
+        margin-bottom: -4rem;
+    }
+
+    .slice-wiz{
+        margin-top: -2rem;
+    }
+    
+
 
 
 }
