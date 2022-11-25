@@ -2785,6 +2785,11 @@ body{
         padding-top: 1rem;
         height: 10rem;
         background-size: 65% auto;
+        margin-bottom: 2rem;
+    }
+
+    .slice-wiz{
+        margin-top: -1rem;
     }
 
 
