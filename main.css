@@ -2191,6 +2191,13 @@ body{
     margin-top: -1.5rem;
 }
 
+.img-div-1{
+    display: block;
+}
+
+.img-div-2{
+    display: none;
+}
 
 
 
@@ -2716,8 +2723,46 @@ body{
     .first-side-1{
         padding: 0 1rem;
     }
-    
 
+    .rev-div{
+        padding: 1.4rem 29.5%;
+        padding-top: 3rem;
+        font-size: 1.1rem;
+        line-height: 1.6rem;
+    }
+    
+    .rev-up{
+        margin-top: -4rem;
+    }
+
+    .con-glo{
+        margin-top: -4.5rem;
+    }
+
+    .rev-btns button{
+        font-size: 0.8rem;
+        width: 23%;
+    }
+
+    .rev-btns #ex-btn{
+        font-size: 1.1rem;
+    }
+
+    .con-glo-div{
+        font-size: 1.2rem;
+    }
+    
+    .multili-page{
+        margin-top: -5.5rem;
+    }
+
+    .multili-p-div{
+        width: 45%;
+    }
+
+    .m-p{
+        font-size: 1.4rem;  
+    }
 
 }
 
@@ -2970,6 +3015,11 @@ body{
 
     .first-side-1{
         flex-direction: column;
+        padding-top: 3rem;
+    }
+
+    .first-img-div{
+        padding-top: 2rem; 
     }
 
     .sup-bar{
@@ -3012,7 +3062,7 @@ body{
     }
 
     .dash-board-4{
-        min-height: 12rem;
+        min-height: 10rem;
     }
 
     .dash-board-5{
@@ -3045,7 +3095,72 @@ body{
         display: none;
     }
 
+    .img-div-2{
+        display: block;
+    }
+    
+    .img-div-1{
+        display: none;
+    }
+    
 
+    .rev-div{
+        padding: 1.4rem 29.5%;
+        padding-top: 5.5rem;
+        font-size: 0.45rem;
+        line-height: 0.7rem;
+    }
+    
+    .rev-up{
+        margin-top: -7rem;
+    }
+
+    .con-glo{
+        margin-top: -8rem;
+    }
+
+    .rev-btns button{
+        font-size: 0.6rem;
+        width: 25%;
+        background-image: none;
+    }
+
+    .rev-btns #ex-btn{
+        font-size: 0.8rem;
+        background-image: none;
+    }
+
+    .con-glo-div{
+        font-size: 0.7rem;
+        background-size: 70% auto;
+        padding: 0 20%;
+    }
+    
+    .multili-page{
+        margin-top: -8.5rem;
+        flex-direction: column;
+        padding-top: 5rem;
+    }
+
+    .multili-p-div{
+        width: 80%;
+    }
+
+    .m-p{
+        font-size: 1.1rem;  
+    }
+
+    .multili-p-div-1{
+        font-size: 0.7rem;
+        padding-top: 8rem;
+        line-height: 0.9rem;
+        margin-top: -6rem;
+    }
+
+    #list-p{
+        width: 60%;
+        margin-top: -5rem;
+    }
 
 
 }
