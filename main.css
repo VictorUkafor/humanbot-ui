@@ -3356,7 +3356,155 @@ body{
     .slice-wiz{
         margin-top: -2rem;
     }
+
+    .next-page{
+        margin-top: -1.5rem;
+    }
+
+    .next-page-frame{
+        background-size: 80% auto;  
+        font-size: 1.5rem;
+    }
     
+
+    .watch-txt{
+        padding: 1rem 10%;
+        font-weight: 700;
+        font-size: 1.2rem;
+    }
+
+
+    .watch-vid{
+        margin-top: 3rem;
+        height: 13rem;
+    }
+    
+    .watch-vid div{
+        width: 70%;
+        height: 13rem;
+        border-radius: 10px;
+        padding: 1rem;
+    }
+
+    .sub-btn{
+        margin: 1rem;
+        height: auto;
+        padding: 0;
+    }
+
+    .but-area1{
+        width: 100%;
+        padding-top: 1.5rem;
+    }
+
+    .first-suppport-div{
+        background-size: 80% auto;  
+        font-size: 0.8rem;
+        margin-top: 2rem;
+    }
+
+    .off-txt{
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    #chev-left, #chev-right, #chev-down{
+        width: 4rem!important;
+    }
+
+    .sup-under{
+        font-size: 0.8rem;
+        padding: 1rem 5%;
+    }
+
+
+    #big-robot{
+        max-width: 70%;
+    }
+
+    .robot-div{
+        padding-bottom: 2rem;
+    }
+
+    .life-time-div{
+        font-size: 1.2rem;
+        line-height: 1.2rem;
+        padding: 1rem 0;
+    }
+
+    .sup-first-half{
+        width: 100%;
+        padding-bottom: 0.5rem;
+        padding-top: 0.5rem;
+    }
+
+    .pocket-offers button{
+        font-size: 1.2rem;
+        padding: 0.8rem;
+        width: 100%;
+        margin: 0.5rem;
+    }
+
+    #offer-1,#offer-2{
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .pocket-offers {
+        flex-direction: column;
+        padding: 1rem 10%;
+    }
+
+    .price-note{
+        font-size: 1.1rem;
+        line-height: 1.5rem;
+        padding: 2rem 10%;  
+    }
+
+
+    .leaves-div div{
+        font-size: 1rem;
+        line-height: 126%;
+    } 
+
+    #offer-line{
+        width: 70%;
+    }
+
+    .humanbot-podium{
+        min-height: 11rem;
+    }
+
+    #anim-gif{
+        width: 20%;
+        margin-left: 60%;
+        margin-top: 3.5rem;
+    }
+
+    .second-last{
+        margin-top: -5rem;
+        max-width: 100%;
+        min-height: 13rem;
+    }
+
+    .second-last div{
+        font-size: 0.6em;
+        line-height: 1.3rem;
+        padding: 0 10%;
+        padding-top: 6.5rem;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
