@@ -1818,7 +1818,7 @@ body{
 
 .inner-top-box{
     max-width: 100%;
-    min-height: 9rem;
+    height: 9rem;
     background-image: url("assets/img/price-ban1.svg");
     background-position: center; 
     background-repeat: no-repeat;
@@ -2892,6 +2892,40 @@ body{
         margin-top: 6.5rem;
     }
 
+    .second-last{
+        margin-top: -5rem;
+    }
+
+    .second-last div{
+        font-size: 1.3rem;
+        line-height: 1.3rem;
+        padding: 0 10%;
+        padding-top: 7rem;
+    }
+
+    .two-bar-page{
+        margin-top: -3rem;
+        flex-direction: column;
+        padding: 3rem 5%!important;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .long-bar-div{
+        width: 86%;
+        margin-bottom: 3rem;
+    }
+
+    .feat-list{
+        padding: 1rem 2rem;
+    }
+
+    .oss-2{
+        width: 90%;
+        margin: 1rem 5%;
+    }
+    
+
 
 
 }
@@ -3494,7 +3528,73 @@ body{
         padding-top: 6.5rem;
     }
 
+    .two-bar-page{
+        margin-top: -5rem;
+    }
 
+    .top-box-1{
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+    
+    .top-box-2{
+        font-size: 1.1rem;
+        line-height: 1.5rem;
+    }
+
+    .like-img{
+        width: 17%;
+    }
+    
+    .feat-list div{
+        font-size: 1.1rem;
+        line-height: 1.5rem;
+        padding-left: 1rem;
+    }
+
+
+    .inner-top-box{
+        height: auto;
+    }
+
+    .feat-list{
+        padding: 1rem;
+    }
+
+
+    .dashed-opt{
+        margin-top: 1.5rem;
+        border-radius: 5;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        padding: 1rem;
+    }
+
+
+    .opt-div{
+        font-size: 0.8rem;
+        padding: 1.5rem 5%;
+    }
+
+
+    .dollar-price{
+        font-size: 3rem;
+        line-height: 141%;
+    }
+    
+    .dollar-price-1{
+        font-size: 1.5rem;
+        line-height: 141%;
+    }
+
+
+    .no-inst{
+        border-radius: 2px;
+        padding: 0.5rem;
+        margin: 0.5rem 5%;
+        font-size: 0.9rem;
+        line-height: 1.2rem;
+    }
 
 
 
