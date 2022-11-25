@@ -1601,6 +1601,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 2rem;
 }
 
 .off-txt{
@@ -1640,14 +1641,12 @@ body{
 
 #chev-left{
     width: 6%;
-    background: url(animation_500_la2n6o84.png);
     opacity: 0.1;
     transform: rotate(-90deg);
 }
 
 #chev-right{
     width: 6%;
-    background: url(animation_500_la2n6o84.png);
     opacity: 0.6;
     transform: matrix(0, -1, -1, 0, 0, 0);
 }
@@ -2791,6 +2790,108 @@ body{
     .slice-wiz{
         margin-top: -1rem;
     }
+
+    .next-page{
+        margin-top: -1rem;
+    }
+
+    .next-page-frame{
+        background-size: 50% auto;  
+        font-size: 2rem;
+    }
+
+    .watch-txt{
+        padding: 1rem 15%;
+        font-weight: 700;
+        font-size: 1.8rem;
+    }
+
+    .watch-vid div{
+        width: 60%;
+    }
+
+    .sub-btn{
+        padding-bottom: 3rem;
+    }
+
+    .first-suppport-div{
+        background-size: 72% auto;  
+        font-size: 1.7rem;
+        margin-top: 2rem;
+    }
+
+    .support-sub{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .sup-first-half{
+        width: 100%;
+        padding-bottom: 2rem;
+        padding-top: 1rem;
+    }
+
+    #emogi-smile{
+        margin-top: 2rem;
+        width: 15%;
+        align-self: center;
+        padding: 1rem 0;
+    }
+
+    .sup-under{
+        font-weight: 400;
+        font-size: 1.5rem;
+        line-height: 164%;
+        padding: 1rem 5%;
+        text-align: center;
+    }
+
+    .robot-div{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        padding: 0 25%;
+        padding-bottom: 3rem;
+    }
+
+    #big-robot{
+        max-width: 50%;
+    }
+
+    #chev-left, #chev-right, #chev-down{
+        width: 5rem!important;
+    }
+    
+    #chev-down{
+        margin-top: 2rem;
+    }
+
+    .pocket-offers button{
+        font-size: 1.6rem;
+        padding: 1rem;
+    }
+
+    .pocket-offers {
+        padding: 1rem;
+    }
+
+    .price-note{
+        font-size: 1.5rem;
+        line-height: 2rem;
+        padding: 2rem 15%;  
+    }
+
+
+    .humanbot-podium{
+        min-height: 25rem;
+    }
+
+    #anim-gif{
+        width: 20%;
+        margin-left: 55%;
+        margin-top: 6.5rem;
+    }
+
 
 
 }
