@@ -2764,6 +2764,30 @@ body{
         font-size: 1.4rem;  
     }
 
+    .emo-div-1{
+        margin-top: -1rem;
+        font-size: 1.3rem;
+        padding: 0 10rem;
+        background-size: 60% auto;
+    }
+
+    .profs{
+        max-width: 100%;
+    }
+
+    .profs img{
+        width: 23%;
+        height: 13rem;
+    }
+
+    .yello-banner{
+        font-size: 1.1rem;
+        padding-top: 1rem;
+        height: 10rem;
+        background-size: 65% auto;
+    }
+
+
 }
 
 
