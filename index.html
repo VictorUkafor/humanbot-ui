@@ -4,13 +4,9 @@
         <meta charset="UTF-8">
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins|Outfit|Orbitron|Merriweather+Sans|Maven+Pro|Raleway|Manrope">
         <link rel="stylesheet" href="main.css">
         <title>HumanBot</title>
-        <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
-        <!-- <script>(()=>{const d=document.documentElement;d.classList.remove("Noscript"),d.classList.add("Script")})();</script>
-        <link rel="stylesheet" href="./style.css"> -->
     </head>
     <body>
         <header class="header">
@@ -321,23 +317,28 @@
                 </div>
                <div class="end-sect"></div> 
                 <div class="publish-page">
+
                     <div class="pub-title">Publish To Any Website In <span>3 Easy Steps</span>
                         Without Any Coding…
                     </div>
                     <div class="custom-box">
                         <div class="custom-box-div">
                             <div class="custom-steps">Step 1</div>
-                            <button id="active-cb-btn">
+                            <button class="custom-box-div-button" 
+                            type="button" id="active-cb-btn"
+                            onclick="switchbtn(this)">
                                 <img src="assets/img/tools.png"/> 
                                 Customize The Appearance
                             </button>
                             <div class="custom-steps">Step 2</div>
-                            <button>
+                            <button class="custom-box-div-button" type="button"
+                            onclick="switchbtn(this)">
                                 <img src="assets/img/paint.png"/> 
                                 Design Your Chat Flow
                             </button>
                             <div class="custom-steps">Step 3</div>
-                            <button>
+                            <button class="custom-box-div-button" type="button"
+                            onclick="switchbtn(this)">
                                 <img src="assets/img/copy.png"/> 
                                 Copy & Paste
                             </button>
@@ -921,6 +922,8 @@
                                     <li> &nbsp; | &nbsp; </li>
                                     <li>Affiliate / FB Group</li>
                                 </ul>
+
+                                
                 
                             </div>
 

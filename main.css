@@ -863,11 +863,12 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    z-index: 20;
 }
 
-.custom-box-div button{
+.custom-box-div-button{
     width: 80%;
-    background: #EDEDED;
+    background-color: #EDEDED;
     border-radius: 8.93786px;
     border: none;
     font-family: 'Raleway';
@@ -881,7 +882,7 @@ body{
     padding: 1rem 1rem;
 }
 
-.custom-box-div button img{
+.custom-box-div-button img{
     width: 3.5rem;
     margin-right: 0.5rem;
 }
@@ -897,8 +898,8 @@ body{
     padding: 0.5rem 12%;
 }
 
-.custom-box-div button:hover, #active-cb-btn{
-    background: #46CE6C;
+#active-cb-btn, .custom-box-div-button:hover{
+    background-color: #46CE6C;
     color: #fff;
 }
 
@@ -2776,13 +2777,13 @@ body{
         border-radius: 18.9568px;
     }
 
-    .custom-box-div button{
+    .custom-box-div-button{
         font-size: 0.8rem;
         line-height: 25px;
         padding: 1rem 1rem;
     }
 
-    .custom-box-div button img{
+    .custom-box-div-button img{
         width: 2.5rem;
         margin-right: 0.5rem;
     }
