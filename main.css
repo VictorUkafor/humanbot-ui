@@ -2198,6 +2198,85 @@ body{
     display: none;
 }
 
+.slice-3{
+    margin-top: -1rem;
+    max-width: 100%;
+    min-height: 10rem;
+    background-image: url("assets/img/slice-3.svg");
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: 100% auto; 
+    display: flex;
+    justify-content: center;
+}
+
+.logo-footer{
+    width: 25%;
+    padding-top: 5rem;
+}
+
+.footer-div{
+    width: 100%;
+    background-color: #fff;
+    margin-top: -3rem;
+    padding-top: 6rem;
+    height: auto;
+}
+
+.footer-txt ul li { 
+    display:inline; 
+}
+
+.footer-txt-2{
+    padding: 2rem 0;
+}
+
+.footer{
+    width: 100%;
+    display: grid;
+}
+
+.footer-1, .footer-2{
+    width: 100%;
+    grid-area: 1/1;
+}
+
+.footer-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-2 img{
+    margin-top: -17rem;
+}
+
+.last-icon-1{
+    width: 12%;
+}
+
+.last-icon-1{
+    width: 12%;
+    animation: MoveUpDown 3s linear infinite;
+}
+
+.last-icon-2{
+    width: 17%;
+    animation: MoveUpDown3 3s linear infinite;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media screen and (min-width: 1400px) {
@@ -2236,7 +2315,14 @@ body{
         margin-top: -0.5rem;
     }
 
+    .slice-3{
+        margin-top: -2rem;
+    }
+
+
 }
+
+
 
 @media screen and (min-width: 1280px) and (max-width: 1300px) {
 
@@ -2347,7 +2433,12 @@ body{
         font-size: 1.9rem;
     }
 
+
 }
+
+
+
+
 
 @media screen and (max-width: 1279px) {
 
@@ -2557,6 +2648,20 @@ body{
         font-size: 1.6rem;;
         padding-top: 7rem;
     }
+
+    .footer-div{
+        margin-top: -3.5rem;
+    }
+
+    .footer-txt{
+        padding: 0 15%;
+    }
+
+    .footer-txt-2{
+        padding: 2.5rem 0;
+    }
+
+
 
 }
 
@@ -2988,10 +3093,25 @@ body{
         margin-bottom: 0;
     }
 
+    .footer-div{
+        margin-top: -4rem;
+    }
 
+    .footer-txt{
+        padding: 0 10%;
+    }
 
+    .footer-txt-2{
+        padding: 3rem 0;
+    }
+    
+    .slice-3{
+        margin-top: -3rem;
+    }
 
-
+    .footer-2{
+        margin-top: -10rem!important;
+    }
 
 
 
@@ -3739,6 +3859,19 @@ body{
     .but-area2{
         margin-top: 0;
         margin-bottom: 0;
+    }
+
+    .footer-div{
+        margin-top: -4.5rem;
+    }
+
+    .footer-txt{
+        font-size: 0.8rem;
+        line-height: 1.5rem;
+    }
+
+    .footer-2{
+        margin-top: -4rem!important;
     }
 
 
