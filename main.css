@@ -1530,8 +1530,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 7rem;
-    margin-top: 4.8rem;
+    height: auto;
+    margin-top: 1;
 }
 
 .but-area1{
@@ -2966,6 +2966,32 @@ body{
         margin: 0.5rem 15%;
     }
 
+    .source-testi, .source-testi a{
+        background-size: 60% auto;  
+    }
+
+    .down-arrow img{
+        width: 1.5rem;
+    }
+
+    .our-testi{
+        font-size: 1.5rem;
+        line-height: 200%;  
+    }
+
+    .here-after{
+        margin-top: 1rem;
+    }
+
+    .but-area2{
+        margin-top: 2rem;
+        margin-bottom: 0;
+    }
+
+
+
+
+
 
 
 
@@ -3644,15 +3670,76 @@ body{
         line-height: 1.2rem;
     }
 
+    .freq-ban{
+        width: 100%;
+        min-height: 5rem;
+        background-size: 70% auto;  
+    }
+    
+    .freq-ban div{
+        padding-top: 2.7rem;
+        font-size: 1rem;
+        line-height: 126%;
+    }
+
+    .add-icon{
+        margin-top: -0.3rem;
+        width: 1rem;
+        padding: 0.5em;
+    }
+
+    .research-txt{
+        font-size: 0.8rem;
+        line-height: 150%;
+        padding: 0 10%;
+    }
+
+    .here-after{
+        font-size: 0.8rem;
+        line-height: 151%;
+    }
+
+    .ques-area-p{
+        font-size: 0.8rem;
+    }
+
+    .source-testi, .source-testi a{
+        min-height: 2.5rem;
+        background-size: 80% auto;  
+        font-weight: 300;
+        font-size: 0.7rem;
+        line-height: 151%;
+        padding-top: 1rem;
+        padding-left: 0;
+    }
+
+    .source-testi img{
+        display: none;
+    }
+    
+    .down-arrow img{
+        width: 0.7rem;
+        padding-top: 0;
+    }
 
 
+    .testimonials{
+        margin-top: 1rem;
+    }
 
+    .our-testi{
+        font-size: 1rem;
+        line-height: 200%;  
+    }
 
+    .here-after{
+        margin-top: 1rem;
+    }
 
-
-
-
-
+    .but-area2{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
 
 
 
