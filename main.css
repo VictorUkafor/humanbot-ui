@@ -1531,7 +1531,6 @@ body{
     justify-content: center;
     align-items: center;
     height: auto;
-    margin-top: 1;
 }
 
 .but-area1{
@@ -1539,11 +1538,12 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 0.8rem;
+    padding-top: 4rem;
 }
 
 .access-end{
-    margin-top: -0.5rem;
+    margin-top: -2rem;
+    padding-bottom: 1rem;
     max-width: 100%;
     min-height: 4rem;
     background-image: url("assets/img/access.svg");
