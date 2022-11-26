@@ -2266,8 +2266,132 @@ body{
     animation: MoveUpDown3 3s linear infinite;
 }
 
+.new-h-podium{
+    display: flex;
+    width: 76%;
+    height: 30rem;
+    margin: 2rem 12%;
+    background: #fff;
+    box-shadow: 0px 91px 100px -33px rgba(0, 0, 0, 0.15);
+    border-radius: 18.9568px
+}
+
+.podium-first{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 5%;
+    border: 3px dashed #20A5D6;
+    border-right: none;
+    border-radius: 18.9568px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    z-index: 20;
+}
 
 
+.podium-first button{
+    width: 70%;
+    background: #202020;
+    border-radius: 8px;
+    padding: 1rem;
+    outline: none;
+    border: none;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 38px;
+    color: #FFFFFF;
+    margin: 1rem 0;
+    display: flex;
+    align-items: center;
+}
+
+.podium-first button img{
+    width: 3.4rem;
+    height: 3.4rem;
+    margin-right: 1rem;
+}
+
+.podium-second{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(0deg, rgba(46, 179, 214, 0.47), rgba(46, 179, 214, 0.47)), 
+    linear-gradient(179.76deg, #000000 0.44%, #3DD85A 59.79%, #20A5D6 99.79%);
+    border-radius: 18.9568px;
+    border-right: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    padding-top: 2rem;
+}
+
+#white-logo{
+    width: 60%;
+}
+
+.p-dollar{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3.3rem;
+    padding: 1rem 0;
+    line-height: 3rem;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.p-price{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 188%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#anim-gif-2{
+    width: 60%;
+    margin-top: -2rem;
+    /* height: 16rem; */
+}
+
+.versus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.versus div{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    background: #FD6666;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.2rem;
+    color: #FFFFFF; 
+    margin-left: 4rem;
+}
+
+.podium-all{
+    display: grid;
+    width: 100;
+}
+
+.new-h-podium, .versus{
+    grid-area: 1/1;
+}
 
 
 
@@ -2660,6 +2784,22 @@ body{
 
     .footer-txt-2{
         padding: 2.5rem 0;
+    }
+
+    .new-h-podium{
+        width: 80%;
+        margin: 2rem 10%;
+    }
+
+    .podium-first button{
+        width: 90%;
+    }
+
+    .versus div{
+        width: 4rem;
+        height: 4rem;
+        font-size: 2rem;
+        margin-left: 3rem;
     }
 
 
@@ -3114,6 +3254,30 @@ body{
         margin-top: -10rem!important;
     }
 
+    .new-h-podium{
+        flex-direction: column;
+        height: auto;
+        border: 3px dashed #20A5D6;
+    }
+
+    .podium-first, .podium-second{
+        width: 100%;
+        border: none;
+        border-radius: 0;
+    }
+
+    .podium-first{
+        padding: 2rem;
+    }
+
+    .versus{
+        margin-top: -5rem;
+    }
+
+    .podium-second{
+        border-bottom-left-radius: 8px!important;
+        border-bottom-right-radius: 8px!important;
+    }
 
 
 }
@@ -3874,6 +4038,24 @@ body{
     .footer-2{
         margin-top: -4rem!important;
     }
+
+    .podium-first{
+        padding-left: 5%;
+        padding-top: 0.3rem;
+    }
+
+    .podium-first button{
+        flex-direction: column;
+        width: 90%;
+        padding-top: 2.5rem;
+    }
+
+
+    .versus div{
+        margin-top: 28rem;
+        margin-left: 1rem;
+    }
+
 
 
 
