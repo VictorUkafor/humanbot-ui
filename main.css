@@ -924,6 +924,7 @@ body{
     width: 50%;
     height: auto;
     margin-top: 100rem;
+    animation: MoveUpDown6 3s linear infinite;
 }
 
 #down-arrow{
@@ -1994,7 +1995,7 @@ body{
     padding: 2rem 13%;
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
+    align-items: flex-start;
     flex-wrap: wrap;
 }
 
@@ -2003,11 +2004,12 @@ body{
 }
 
 .each-ans{
-    width: 100%;
+    width: 45%;
     background: #FFE9C8;
     border-radius: 15px;
     padding: 1rem;
     margin-bottom: 2rem;
+    
 }
 
 .ques-area{
@@ -2038,6 +2040,7 @@ body{
     line-height: 1.7rem;
     letter-spacing: -0.02em;
     padding-top: 1rem;
+    display: none;
 }
 
 .each-ans-1{
@@ -2117,6 +2120,7 @@ body{
 
 .down-arrow img{
     width: 2.5rem;
+    animation: MoveUpDown3 3s linear infinite;
 }
 
 .our-testi{
@@ -2393,6 +2397,9 @@ body{
     grid-area: 1/1;
 }
 
+.com-div{
+    /* padding: 0 5%; */
+}
 
 
 
@@ -3277,6 +3284,10 @@ body{
     .podium-second{
         border-bottom-left-radius: 8px!important;
         border-bottom-right-radius: 8px!important;
+    }
+
+    .each-ans{
+        width: 80%;
     }
 
 

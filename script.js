@@ -12,3 +12,19 @@ function switchbtn(e){
     e.style.color = '#fff';
 }
 
+
+const allAns = document.querySelectorAll('.add-icon');
+
+function openAns(e){
+
+    const doc = document.getElementById('ans-text-'+e);
+    
+    if(doc.style.display == 'block'){
+        doc.style.display = 'none';
+    } else {
+        doc.style.display = 'block';
+    }
+
+}
+
+
