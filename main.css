@@ -2398,7 +2398,7 @@ body{
 }
 
 .com-div{
-    /* padding: 0 5%; */
+    padding: 0 5%;
 }
 
 
@@ -3291,6 +3291,22 @@ body{
     }
 
 
+    #star-img{
+        width: 12%;
+        height: 2.5rem;
+    }
+
+    .dash-p{
+        font-size: 1.3rem;
+        line-height: 118.6%;
+    }
+
+    .desk-banners{
+        padding: 0 5%;
+    }
+
+
+
 }
 
 
@@ -3350,6 +3366,7 @@ body{
         width: 100%;
         display: flex;
         justify-content: space-between;
+        /* padding: 0 10%; */
     }
 
     .first-side, .first-side-2{
@@ -3588,7 +3605,7 @@ body{
     }
 
     .dash-p{
-        font-size: 1.3rem;
+        font-size: 1.1rem;
     }
 
     .dash-board-3{
@@ -3673,6 +3690,7 @@ body{
     .multili-page{
         margin-top: -8.5rem;
         flex-direction: column;
+        padding: 0 10%;
         padding-top: 5rem;
     }
 
@@ -4061,10 +4079,13 @@ body{
         padding-top: 2.5rem;
     }
 
-
     .versus div{
         margin-top: 28rem;
         margin-left: 1rem;
+    }
+
+    .custom-box-div-button img{
+        width: 2.2rem;
     }
 
 
