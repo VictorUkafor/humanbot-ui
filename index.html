@@ -5,7 +5,14 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins|Outfit|Orbitron|Merriweather+Sans|Maven+Pro|Raleway|Manrope">
+        <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+      />
+      <link rel="stylesheet" href="slide.css">
         <link rel="stylesheet" href="main.css">
+        
+
         <title>HumanBot</title>
     </head>
     <body>
@@ -74,99 +81,6 @@
             </div>
         </div>
 
-        <!-- <main>
-
-            <section class="Carousel" id="carousel" tabindex="-1">
-                <article class="Card Card--overlay Card--square" id="card-1">
-                <div class="Card__media">
-                    <div class="each-second-half">
-                        <div class="each-second-img">
-                            <img src="assets/img/frame-1.svg" class="sec-frame"/>
-                        </div>
-                        <div class="second-half-txt">
-                            <div class="second-h">
-                                Multilingual Chat
-                            </div>
-                            <div class="second-p">
-                                Instantly detect location & translate chat to local language to convert global audience.
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                </article>
-                <article class="Card Card--overlay Card--wide" id="card-2">
-                <div class="Card__media">
-                    <div class="each-second-half each-second-half-1">
-                        <div class="each-second-img">
-                            <img src="assets/img/calender.svg" class="sec-frame"/>
-                        </div>
-                        <div class="second-half-txt">
-                            <div class="second-h">
-                                Schedule Appointments
-                            </div>
-                            <div class="second-p">
-                                Book appointments and client calls on the spot without third party apps!
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                </article>
-                <article class="Card Card--overlay Card--portrait" id="card-3">
-                <div class="Card__media">
-                    <div class="each-second-half each-second-half-2">
-                        <div class="each-second-img">
-                            <img src="assets/img/chat-2.svg" class="sec-frame"/>
-                        </div>
-                        <div class="second-half-txt">
-                            <div class="second-h">
-                                Collect Phone # or Email
-                            </div>
-                            <div class="second-p">
-                                Non-pushy approach to collecting customers contact information without optin forms
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                </article>
-                <article class="Card Card--overlay Card--photo" id="card-4">
-                <div class="Card__media">
-                    <div class="each-second-half each-second-half-3">
-                        <div class="each-second-img">
-                            <img src="assets/img/chat-3.svg" class="sec-frame"/>
-                        </div>
-                        <div class="second-half-txt">
-                            <div class="second-h">
-                                Chat Funnels
-                            </div>
-                            <div class="second-p">
-                                Customers though your funnel with chat flows that change based on response. 
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                </article>
-            </section>
-            
-            <nav class="Pagination">
-                <button class="Arrow" type="button" aria-controls="carousel" disabled>
-                    <svg width="16" height="16" viewBox="0 0 16 16" role="presentation">
-                    <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"/>
-                    </svg>
-                </button>
-                <button class="Arrow" type="button" aria-controls="carousel" disabled>
-                    <svg width="16" height="16" viewBox="0 0 16 16" role="presentation">
-                    <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
-                    </svg>
-                </button>
-                <div class="Dots" style="display: none;">
-                    <a href="#card-1" class="Dot" tabindex="-1"><span class="Hidden">Slide 1</span></a>
-                    <a href="#card-2" class="Dot" tabindex="-1"><span class="Hidden">Slide 2</span></a>
-                    <a href="#card-3" class="Dot" tabindex="-1"><span class="Hidden">Slide 3</span></a>
-                    <a href="#card-4" class="Dot" tabindex="-1"><span class="Hidden">Slide 4</span></a>
-                </div>
-            </nav>
-        </main>  -->
-
         <div class="second-page"> 
             <div class="first-half">
                 <div class="img-case">
@@ -187,62 +101,73 @@
                 </div>
                 <div class="img-case"> 
                     <img src="assets/img/side-emogi.png" class="side-mogis"/> 
-                </div>     
-            </div>         
-            <!-- <div class="second-half">
-                <div class="each-second-half">
-                    <div class="each-second-img">
-                        <img src="assets/img/frame-1.svg" class="sec-frame"/>
-                    </div>
-                    <div class="second-half-txt">
-                        <div class="second-h">
-                            Multilingual Chat
+                </div>            
+            </div>  
+            
+            <div class="swiper">
+                <div class="swiper-wrapper">
+
+                    <div class="each-second-half swiper-slide" id="slider-1">
+                        <div class="each-second-img">
+                            <img src="assets/img/frame-1.svg" class="sec-frame"/>
                         </div>
-                        <div class="second-p">
-                            Instantly detect location & translate chat to local language to convert global audience.
+                        <div class="second-half-txt">
+                            <div class="second-h">
+                                Multilingual Chat
+                            </div>
+                            <div class="second-p">
+                                Instantly detect location & translate chat to local language to convert global audience.
+                            </div>
                         </div>
                     </div>
+
+                    <div class="each-second-half each-second-half-1 swiper-slide" id="slider-2">
+                        <div class="each-second-img">
+                            <img src="assets/img/calender.svg" class="sec-frame"/>
+                        </div>
+                        <div class="second-half-txt">
+                            <div class="second-h">
+                                Schedule Appointments
+                            </div>
+                            <div class="second-p">
+                                Book appointments and client calls on the spot without third party apps!
+                            </div>
+                        </div>
+                    </div>
+
+                   <div class="each-second-half each-second-half-2 swiper-slide"  id="slider-3">
+                        <div class="each-second-img">
+                            <img src="assets/img/chat-2.svg" class="sec-frame"/>
+                        </div>
+                        <div class="second-half-txt">
+                            <div class="second-h">
+                                Collect Phone # or Email
+                            </div>
+                            <div class="second-p">
+                                Non-pushy approach to collecting customers contact information without optin forms
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="each-second-half each-second-half-3 swiper-slide"  id="slider-4">
+                        <div class="each-second-img">
+                            <img src="assets/img/chat-3.svg" class="sec-frame"/>
+                        </div>
+                        <div class="second-half-txt">
+                            <div class="second-h">
+                                Chat Funnels
+                            </div>
+                            <div class="second-p">
+                                Customers though your funnel with chat flows that change based on response. 
+                            </div>
+                        </div>
+                    </div> 
+
                 </div>
-                <div class="each-second-half each-second-half-1">
-                    <div class="each-second-img">
-                        <img src="assets/img/calender.svg" class="sec-frame"/>
-                    </div>
-                    <div class="second-half-txt">
-                        <div class="second-h">
-                            Schedule Appointments
-                        </div>
-                        <div class="second-p">
-                            Book appointments and client calls on the spot without third party apps!
-                        </div>
-                    </div>
-                </div>
-                <div class="each-second-half each-second-half-2">
-                    <div class="each-second-img">
-                        <img src="assets/img/chat-2.svg" class="sec-frame"/>
-                    </div>
-                    <div class="second-half-txt">
-                        <div class="second-h">
-                            Collect Phone # or Email
-                        </div>
-                        <div class="second-p">
-                            Non-pushy approach to collecting customers contact information without optin forms
-                        </div>
-                    </div>
-                </div>
-                <div class="each-second-half each-second-half-3">
-                    <div class="each-second-img">
-                        <img src="assets/img/chat-3.svg" class="sec-frame"/>
-                    </div>
-                    <div class="second-half-txt">
-                        <div class="second-h">
-                            Chat Funnels
-                        </div>
-                        <div class="second-p">
-                            Customers though your funnel with chat flows that change based on response. 
-                        </div>
-                    </div>
-                </div>
-            </div>  -->
+                <div class="swiper-button-next"></div>
+                <!-- <div class="swiper-button-prev"></div> -->
+            </div>
+          
         </div> 
         <div class="third-page">
             <div class="multi-page">
@@ -929,6 +854,11 @@
                 <div class="our-testi">
                     <div>Our Testimonials</div>
                     <img src="assets/img/ray-img.svg"/>
+
+
+
+
+
                 </div>
 
                 <div class="sub-btn">
@@ -981,6 +911,8 @@
         </div>   
         
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.0/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
         <script src="./script.js"></script>
     </body>
 </html>

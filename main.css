@@ -472,12 +472,14 @@ body{
     background-position: center; 
     background-repeat: no-repeat;
     background-size: 100% auto;
+    /* background-color: #9ad7ed; */
     margin-top: -4rem;
 }
 
 .first-half{
     width: 100%;
     display: flex;
+    margin-bottom: -15rem;
 }
 
 .book-icon{
@@ -600,12 +602,10 @@ body{
 .second-half{
     /* max-width: 100%; */
     margin-top: 28rem;
-    display: flex;
-    overflow: hidden;
 }
 
 .each-second-half{  
-    max-width: 21rem;  
+    /* max-width: 21rem;   */
     margin: 0 1rem;
     height: 29rem;
     padding-top: 1.5rem;
@@ -613,7 +613,7 @@ body{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    width: 20rem;
+    width: 20%;
     background: rgba(204, 119, 128, 0.74);
     backdrop-filter: blur(11.4803px);    
     border-radius: 15.307px;
@@ -2401,7 +2401,9 @@ body{
     padding: 0 5%;
 }
 
-
+.swiper{
+    background-color: #9ad7ed;
+}
 
 
 
@@ -3305,6 +3307,10 @@ body{
         padding: 0 5%;
     }
 
+    .each-second-half{  
+        /* flex-direction: row; */
+        /* width: 30%; */
+    }
 
 
 }
