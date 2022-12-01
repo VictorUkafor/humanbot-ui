@@ -80,3 +80,4 @@ new Splide( '#splide4',
     },
   }
 ).mount(window.splide.Extensions);
+
