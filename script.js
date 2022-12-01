@@ -32,28 +32,8 @@ function openAns(e){
 
 
 
-// var swiper = new Swiper('.swiper', {
-//     slidesPerView: 4,
-//     direction: getDirection(),
-//     navigation: {
-//       nextEl: '.swiper-button-next',
-//       prevEl: '.swiper-button-prev',
-//     },
-//     on: {
-//       resize: function () {
-//         swiper.changeDirection(getDirection());
-//       },
-//     },
-//   });
 
-//   function getDirection() {
-//     var windowWidth = window.innerWidth;
-//     var direction = window.innerWidth <= 760 ? 'vertical' : 'horizontal';
-
-//     return direction;
-//   }
-
-new Splide( '.splide', 
+new Splide( '#splide1', 
   {
     type   : 'loop',
     drag   : 'free',
@@ -63,22 +43,40 @@ new Splide( '.splide',
       speed: 1,
     },
   }
-).mount( window.splide.Extensions );
+).mount(window.splide.Extensions);
 
-  // document.addEventListener( 'DOMContentLoaded', function() {
-  //   var splide = new Splide( '.splide' );
-  //   splide.mount();
-  // } );
+new Splide( '#splide2', 
+  {
+    type   : 'loop',
+    drag   : 'free',
+    focus  : 'center',
+    // perPage: 3,
+    autoScroll: {
+      speed: 1,
+    },
+  }
+).mount(window.splide.Extensions);
 
+new Splide( '#splide3', 
+  {
+    type   : 'loop',
+    drag   : 'free',
+    focus  : 'center',
+    // perPage: 3,
+    autoScroll: {
+      speed: -1,
+    },
+  }
+).mount(window.splide.Extensions);
 
-//  new Splide( '.splide', {
-//     type   : 'loop',
-//     drag   : 'free',
-//     focus  : 'center',
-//     perPage: 3,
-//     autoScroll: {
-//       speed: -1,
-//     },
-//   } );
-
-
+new Splide( '#splide4', 
+  {
+    type   : 'loop',
+    drag   : 'free',
+    focus  : 'center',
+    // perPage: 3,
+    autoScroll: {
+      speed: 1,
+    },
+  }
+).mount(window.splide.Extensions);

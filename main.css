@@ -1409,12 +1409,24 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 3rem 0;
 }
 
 .profs img{
     width: 19rem;
     height: 24rem;
+    border-radius: 15px;
+}
+
+#splide2{
+    margin-top: 5rem;
+}
+
+#splide3{
+    margin-top: 3rem;
+}
+
+#splide4{
+    margin-bottom: 3rem;
 }
 
 .yello-banner{
@@ -2438,13 +2450,21 @@ body{
     margin: 2rem 0;
 }
 
+.each-testimonial{
+    width: 20%
+}
+
+.splide__pagination{
+    display: none;
+}
+
 .each-testimony{
-    width: 19%;
+    width: 100%;
     background: #FFFFFF;
     border-radius: 20px;
     background-color: #fff;
     padding: 2rem 1.5rem;
-    margin: 0.5rem 0;
+    margin: 0.5rem;
 }
 
 .each-testimony-h{
@@ -2466,12 +2486,7 @@ body{
     margin: 0 0.15rem;
 }
 
-/* .splide{
-    max-width: 80%!important;
-    width: 80%!important;
 
-    background-color: red;
-} */
 
 
 
