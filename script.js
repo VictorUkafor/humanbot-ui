@@ -53,7 +53,17 @@ function openAns(e){
 //     return direction;
 //   }
 
-new Splide( '.splide' ).mount( window.splide.Extensions );
+new Splide( '.splide', 
+  {
+    type   : 'loop',
+    drag   : 'free',
+    focus  : 'center',
+    // perPage: 3,
+    autoScroll: {
+      speed: 1,
+    },
+  }
+).mount( window.splide.Extensions );
 
   // document.addEventListener( 'DOMContentLoaded', function() {
   //   var splide = new Splide( '.splide' );
@@ -61,14 +71,14 @@ new Splide( '.splide' ).mount( window.splide.Extensions );
   // } );
 
 
-  new Splide( '.splide', {
-    type   : 'loop',
-    drag   : 'free',
-    focus  : 'center',
-    perPage: 4,
-    autoScroll: {
-      speed: -2,
-    },
-  } );
+//  new Splide( '.splide', {
+//     type   : 'loop',
+//     drag   : 'free',
+//     focus  : 'center',
+//     perPage: 3,
+//     autoScroll: {
+//       speed: -1,
+//     },
+//   } );
 
 

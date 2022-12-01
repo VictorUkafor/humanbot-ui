@@ -604,10 +604,20 @@ body{
     margin-top: 28rem;
 }
 
+.splide-bg{
+    display: block;
+}
+
+.splide-sm{
+    display: none;
+}
+
 .splide__slide{
     display: flex;
     max-width:100%;
     justify-content: space-around;
+    width: 25%!important;
+
 }
 
 .each-second-half{  
@@ -619,7 +629,7 @@ body{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    width: 22.5%;
+    width: 90%;
     background: rgba(204, 119, 128, 0.74);
     backdrop-filter: blur(11.4803px);    
     border-radius: 15.307px;
@@ -628,6 +638,7 @@ body{
 .splide__arrow{
     display: none!important;
 }
+
 
 .each-second-half-1{  
     background: rgba(108, 153, 200, 0.75);
@@ -2455,7 +2466,12 @@ body{
     margin: 0 0.15rem;
 }
 
+/* .splide{
+    max-width: 80%!important;
+    width: 80%!important;
 
+    background-color: red;
+} */
 
 
 
@@ -3388,10 +3404,36 @@ body{
         padding: 0 5%;
     }
 
-    .each-second-half{  
-        /* flex-direction: row; */
-        /* width: 30%; */
+    .splide__slide{
+        display: flex;
+        justify-content: space-around;
+        width: 50%!important;
+    
     }
+    
+    .each-second-half{  
+        /* max-width: 21rem;   */
+        /* margin: 0 1rem; */
+        height: auto;
+        padding-top: 1.5rem;
+        flex-direction: row;
+        border-radius: 15.307px;
+    }
+
+    .each-second-img{
+        width: 40%;
+    }
+
+    .second-half-txt{
+        max-width: 50%;
+        background: #FFFFFF;
+        border-radius: 15.307px;
+        text-align: center;
+        padding: 1rem 1.2rem;
+    }
+
+
+
 
 
 }
