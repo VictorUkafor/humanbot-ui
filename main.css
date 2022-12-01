@@ -1046,7 +1046,7 @@ body{
 }
 
 .dash-board-1{
-    max-width:34%;
+    max-width: 36%;
     margin-top: 2rem;
 }
 
@@ -2405,9 +2405,6 @@ body{
     grid-area: 1/1;
 }
 
-.com-div{
-    padding: 0 5%;
-}
 
 .swiper{
     background-color: #9ad7ed;
@@ -2864,6 +2861,14 @@ body{
         height: 4rem;
         font-size: 2rem;
         margin-left: 3rem;
+    }
+
+    .dash-board-1{
+        max-width: 38%;
+    }
+
+    .fourth-page-slice{
+        margin-top: -2.5rem;
     }
 
 
