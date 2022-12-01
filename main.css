@@ -913,6 +913,10 @@ body{
     width: 100%;
 }
 
+.multi-page{
+    z-index: 10;
+}
+
 #side-ray{
     float: right;
     width: 46%;  
@@ -2246,6 +2250,10 @@ body{
     grid-area: 1/1;
 }
 
+.footer-1{
+    z-index: 10;
+}
+
 .footer-2{
     display: flex;
     justify-content: space-between;
@@ -2404,6 +2412,53 @@ body{
 .swiper{
     background-color: #9ad7ed;
 }
+
+.all-testimonials{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 2rem 0;
+}
+
+.each-testimony{
+    width: 19%;
+    background: #FFFFFF;
+    border-radius: 20px;
+    background-color: #fff;
+    padding: 2rem 1.5rem;
+    margin: 0.5rem 0;
+}
+
+.each-testimony-h{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 154%;
+    color: #1A1A1A;
+    padding-top: 1.5rem;
+}
+
+.star-all{
+    display: flex;
+}
+
+.star-all img{
+    width: 1.1rem;
+    margin: 0 0.15rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
