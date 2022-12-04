@@ -81,3 +81,29 @@ new Splide( '#splide4',
   }
 ).mount(window.splide.Extensions);
 
+new Splide( '#splide-center', {
+  type   : 'loop',
+  perPage: 1,
+  focus  : 'center',
+} ).mount();
+
+new Splide( '#splide-center-2', {
+  type   : 'loop',
+  perPage: 1,
+  focus  : 'center',
+} ).mount();
+
+new Splide( '#splide-center-4', {
+  type   : 'loop',
+  perPage: 1,
+  focus  : 'center',
+} ).mount();
+
+
+
+
+
+
+
+
+

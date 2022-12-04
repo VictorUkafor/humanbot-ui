@@ -4,17 +4,8 @@
         <meta charset="UTF-8">
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins|Outfit|Orbitron|Merriweather+Sans|Maven+Pro|Raleway|Manrope">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
-        <script src="splide/dist/js/splide.min.js"></script>
-        <script src="splide-extension/dist/js/splide-extension-auto-scroll.min.js"></script>
-    
-        <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
-        <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-        <script type="text/javascript" src="js/jquery.waterwheelCarousel.js"></script>
-
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins|Outfit|Orbitron|Merriweather+Sans|Maven+Pro|Raleway|Manrope">    
         <link rel="stylesheet" href="splide/dist/css/splide.min.css">
-        <link rel="stylesheet" href="slide.css">
         <link rel="stylesheet" href="main.css">
         
         <title>HumanBot</title>
@@ -436,18 +427,34 @@
             <img src="assets/img/animation-5.gif" id="anim-5" /> 
             <div class="rev-div">Rev Up Engagement With Customizable Chat Appearance…</div>
         </div>
+
         <div class="rev-up">
-            <div class="rev-up-1">
-                <img src="assets/img/camp-1.png" id="camp-1"/>
-                <img src="assets/img/camp-2.png" id="camp-2"/>
-                <img src="assets/img/camp-3.png" id="camp-3"/>
-            </div>            
-            <div class="rev-btns">
-                <button id="rev-btn-1">Non Intrusive Minimized</button>
-                <button id="ex-btn">Always On Full View</button>
-                <button id="rev-btn-2">Non Intrusive Minimized</button>
-            </div>
+            <section class="splide" id="splide-center-2" aria-labelledby="carousel-heading">              
+                <div class="splide__track">
+                    <ul class="splide__list">
+                        <li class="splide__slide splide__slide-3">
+                            <div>
+                                <img src="assets/img/slider-img.svg"/>
+                                <button class="rev-btn-1"> Intrusive Minimized</button>
+                            </div>
+                        </li>
+                        <li class="splide__slide splide__slide-3">
+                            <div>
+                                <img src="assets/img/slider-img.svg"/>
+                                <button class="rev-btn-1">Always On Full View</button>
+                            </div>
+                        </li>
+                        <li class="splide__slide splide__slide-3">
+                            <div>
+                                <img src="assets/img/slider-img.svg"/>
+                                <button class="rev-btn-1">Non Intrusive Minimized</button>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>      
         </div>
+
         <div class="con-glo">
             <div class="j-bk"></div> 
             <div class="con-glo-div">
@@ -476,12 +483,6 @@
             <div class="emo-div-1">
                 Stir Up Emotions & 10X Your Sales With Digital ‘Talking’ Humans...
             </div>
-            <!-- <div class="profs">
-                <img src="assets/img/pic1.png" />
-                <img src="assets/img/pic2.png" />
-                <img src="assets/img/pic3.png" />
-                <img src="assets/img/pic4.png" />
-            </div> -->
 
             <section class="splide" id="splide2" aria-labelledby="carousel-heading">              
                 <div class="splide__track">
@@ -558,20 +559,56 @@
                 <div class="first-suppport-div">
                     <a href="#" style="color:#000;">10 Easy Ways To Profit &nbsp;</a> With HumanBot…
                 </div>
-                <div class="second-sup-div">
-                    <img src="assets/img/chev-right.gif" id="chev-left"/>
-                    <div class="support-sub">
-                        <div class="sup-first-half">
-                            <img src="assets/img/emogi-smile.svg" id="emogi-smile"/>
-                            <div class="off-txt">Offer Support 24x7</div>
-                            <div class="sup-under">Use AI to automate chat and enhance customer experience. </div>
-                        </div>
-                        <div class="robot-div">
-                            <img src="assets/img/big-robot.svg" id="big-robot"/>
-                        </div>
+
+
+                <section class="splide" id="splide-center-4" aria-labelledby="carousel-heading">              
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            <li class="splide__slide splide__slide-4">
+                                <div class="support-sub">
+                                    <div class="sup-first-half">
+                                        <img src="assets/img/emogi-smile.svg" id="emogi-smile"/>
+                                        <div class="off-txt">Offer Support 24x7</div>
+                                        <div class="sup-under">Use AI to automate chat and enhance customer experience. </div>
+                                    </div>
+                                    <div class="robot-div">
+                                        <img src="assets/img/big-robot.svg" id="big-robot"/>
+                                    </div>
+                                </div>
+                            </li>                            
+                            <li class="splide__slide splide__slide-4">
+                                <div class="support-sub">
+                                    <div class="sup-first-half">
+                                        <img src="assets/img/emogi-smile.svg" id="emogi-smile"/>
+                                        <div class="off-txt">Slash Costs</div>
+                                        <div class="sup-under">Serve thousands of new customers with minimal workforce and earn more</div>
+                                    </div>
+                                    <div class="robot-div">
+                                        <img src="assets/img/man-robot.svg" id="big-robot"/>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="splide__slide splide__slide-4">
+                                <div class="support-sub">
+                                    <div class="sup-first-half">
+                                        <img src="assets/img/emogi-smile.svg" id="emogi-smile"/>
+                                        <div class="off-txt">Maximize Cart Value</div>
+                                        <div class="sup-under">Boost Customer Satisfaction and sell more with instant gratification and on the spot problem solving. </div>
+                                    </div>
+                                    <div class="robot-div">
+                                        <img src="assets/img/dat-robot.svg" id="big-robot"/>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
                     </div>
+                </section>
+
+                <!-- <div class="second-sup-div">
+                    <img src="assets/img/chev-right.gif" id="chev-left"/>
                     <img src="assets/img/chev-right.gif" id="chev-right"/>
-                </div>
+                </div> -->
+
                 <div class="spiral-dw">
                     <img src="assets/img/spiral-down.svg"/>
                 </div>
@@ -590,9 +627,6 @@
                     <div>Leaves The Competition In The Dust…</div>
                     <img src="assets/img/offer-line.svg" id="offer-line" />
                 </div>
-                <!-- <div class="humanbot-podium">
-                    <img src="assets/img/animation-anim.gif" id="anim-gif"/>
-                </div> -->
 
                 <div class="podium-all">
                     <div class="new-h-podium">
@@ -1036,36 +1070,21 @@
                     <div>Our Testimonials</div>
                     <img src="assets/img/ray-img.svg"/>
 
-                    <!-- <div class="ktrv">
-
-                        <div class="wwkt" id="wwcp-2">
-                           <div>
-                            </div>
-                            <div>
-                                <img src="assets/img/testimonial-1.svg" class="slider-2-img"/>
-                            </div>
-                            <div>
-                            </div>
+                    <section class="splide" id="splide-center" aria-labelledby="carousel-heading">              
+                        <div class="splide__track">
+                            <ul class="splide__list">
+                                <li class="splide__slide splide__slide-2">
+                                    <img src="assets/img/testimonial-1.svg" class="img-splide"/>
+                                </li>
+                                <li class="splide__slide splide__slide-2">
+                                    <img src="assets/img/testimonial-1.svg" class="img-splide"/>
+                                </li>
+                                <li class="splide__slide splide__slide-2">
+                                    <img src="assets/img/testimonial-1.svg" class="img-splide"/>
+                                </li>
+                            </ul>
                         </div>
-                        <div class="wwkt" id="wwcp-3">
-                           <div>
-                            </div>
-                            <div>
-                                <img src="assets/img/testimonial-1.svg" class="slider-2-img"/>
-                            </div>
-                            <div>
-                            </div>
-                        </div>
-                        <div class="wwkt" id="wwcp-1">
-                           <div>
-                            </div>
-                            <div>
-                                <img src="assets/img/testimonial-2.svg" class="slider-2-img"/>
-                            </div>
-                            <div>
-                            </div>
-                        </div>
-                    </div> -->
+                    </section>
 
                 </div>
 
@@ -1075,12 +1094,14 @@
                         <img src="assets/img/button.svg"  class="arrow-btn"/>
                         <img src="assets/img/animation-right.gif"  class="arrow-gif"/>
                     </div>
-                </div>
+                </div>                        
+                <div class="slice-3"></div>
                 <div class="footer">
+                    <img src="assets/img/last-icon-1.svg"  class="last-icon-1"/>
+
                     <div class="footer-1">
-                        <div class="slice-3">
-                            <img src="assets/img/logo-footer.svg"  class="logo-footer"/>
-                        </div>
+                        <img src="assets/img/logo-footer.svg"  class="logo-footer"/>
+
                         <div class="footer-div">
                             <div class="footer-txt">
                                 This site is not a part of the FaceBook website or FaceBook INC. Additionally, this site is NOT endorsed by FaceBook in ANY WAY. FACEBOOK is a trademark of FaceBook INC. <br> 
@@ -1101,41 +1122,29 @@
                                 </ul>                                
                 
                             </div>
-
-                            <hr>
+                           
+                        </div>     
                         
-                            <div class="footer-txt footer-txt-2">All Rights Reserved © HumanBot</div>
-                        </div>                        
-                    </div>
-                    <!-- <div class="footer-2">
-                        <img src="assets/img/last-icon-1.svg"  class="last-icon-1"/>
-                        <img src="assets/img/last-icon-2.svg"  class="last-icon-2"/>
-                    </div> -->
+                      
 
-                </div>
+                    </div>
+                        
+                    <img src="assets/img/last-icon-2.svg"  class="last-icon-2"/>
+
+                </div>  
+                        
+                <div class="footer-txt footer-txt-2">All Rights Reserved © HumanBot</div>   
                 
             </div>
 
         </div>   
 
+        <script src="splide/dist/js/splide.min.js"></script>
+        <script src="splide-extension/dist/js/splide-extension-auto-scroll.min.js"></script>
+        
         <script src="./script.js"></script>
     </body>
 </html>
 
-
-<script type="text/javascript">
-
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-36251023-1']);
-    _gaq.push(['_setDomainName', 'jqueryscript.net']);
-    _gaq.push(['_trackPageview']);
-  
-    (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
-  
-</script>
 
 
